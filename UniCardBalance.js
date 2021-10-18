@@ -22,7 +22,6 @@ if(config.runsInWidget){
     titleW.centerAlignText()
     titleW.font = Font.boldSystemFont(12);  
     titleW.textColor = Color.white()
-    //w.addSpacer(8);
     Script.setWidget(w)
 }
 else{
