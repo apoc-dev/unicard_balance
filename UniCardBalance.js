@@ -1,3 +1,7 @@
+// version    : 1.0.0 
+// description: script to display unicard balance on iOS
+// author     : @apoc aka @apoc-dev
+
 var card = args.widgetParameter
 if(config.runsWithSiri){  
     card=args.shortcutParameter
