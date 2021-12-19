@@ -6,7 +6,7 @@ var card = args.widgetParameter
 if(config.runsWithSiri){  
     card=args.shortcutParameter
 }
-let url = `https://topup.klarna.com/api/v1/STW_MUNSTER/cards/${card}/balance`;
+let url = `https://api.topup.klarna.com/api/v1/STW_MUNSTER/cards/${card}/balance`;
 let mensaURL = "https://muenster.my-mensa.de";
 
 let r = new Request(url);
