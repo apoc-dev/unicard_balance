@@ -29,13 +29,7 @@ if(config.runsInWidget){
     Script.setWidget(w)
 }
 else{
-
-    if(config.runsWithSiri){
-        Speech.speak("Guthaben ist " + (body.balance/100).toFixed(2)+"€");
-    }
-    else{
-        Safari.open(mensaURL);
-    }
+    Safari.open(mensaURL);
 }
 Script.complete();
 
